@@ -1,0 +1,45 @@
+/* Pseudo Element*/
+
+ 
+p::first-line{
+    font-weight: bold;
+    color: darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+h1{
+    color: blue;
+    font-size: larger;
+    text-align: center;
+}
+p::first-letter{
+    font-size: 50px;
+}
+/* Pseudo Class*/
+
+
+ol li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+ol li:first-child{
+    background-color: purple;
+
+}
+ol li:last-child{
+    background-color: red;
+}
+a:visited{
+    color: fuchsia;
+}
+a:hover{
+    color: beige;
+    background: lightblue;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-bottom: 10px;
+}
